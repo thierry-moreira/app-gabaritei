@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/logo.svg" width="96" alt="Gabaritei App" />
+<img src="assets/images/icone.webp" width="96" alt="Gabaritei App" />
 
 # Gabaritei App
 
