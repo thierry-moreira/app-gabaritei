@@ -1,0 +1,4 @@
+project_id = "gabaritei-app"
+
+[functions.secure-global-write]
+verify_jwt = true

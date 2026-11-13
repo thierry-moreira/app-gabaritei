@@ -1,0 +1,127 @@
+# ============================================================================
+# ARQUIVOS SENSÍVEIS - NUNCA COMMITAR (credenciais, chaves, secrets, etc.)
+# ============================================================================
+# Arquivos de ambiente com valores reais (usar apenas .env.example para versionar)
+/env.json
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.local
+*.env.*.local
+
+# Credenciais e chaves de API
+*.key
+*.pem
+*.crt
+*.secret
+credentials.json
+service-account-*.json
+google-services.json
+GoogleService-Info.plist
+
+# ============================================================================
+# Miscellaneous
+# ============================================================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ============================================================================
+# IntelliJ / Android Studio
+# ============================================================================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Opcional: descomente se não quiser versionar configurações do VS Code
+# .vscode/
+
+# ============================================================================
+# Flutter/Dart/Pub related
+# ============================================================================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.package_map
+.pub-cache/
+.pub/
+/build/
+/coverage/
+.dart_tool/package_config.json
+.flutter_plugins
+.plugins
+
+# ============================================================================
+# Symbolication related
+# ============================================================================
+app.*.symbols
+
+# ============================================================================
+# Obfuscation related
+# ============================================================================
+app.*.map.json
+
+# ============================================================================
+# Android Studio build artifacts
+# ============================================================================
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/app/.google-services.json
+/android/gradlew
+/android/gradlew.bat
+/android/local.properties
+
+# ============================================================================
+# iOS
+# ============================================================================
+/ios/.environment
+/ios/FluxNormalized.xcproject.xcworkspace/
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/Generated.xcconfig.xcworkspace
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/Flutter
+/ios/Flutter/Flutter.app.dSYM
+/ios/Flutter/engine
+/ios/Flutter/xxhash
+/ios/Pods
+/ios/Runner/GeneratedPluginRegistrant.swift
+/ios/symlink
+/ios/Flutter/Flutter.podspec
+/ios/.symlinks
+
+# ============================================================================
+# Widget Preview related
+# ============================================================================
+.widget_preview/
+
+# ============================================================================
+# IDE / Editor local
+# ============================================================================
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.opencode/
+.impeccable/
+.metadata
+.gabaritei_app.iml
+.samsung-*.logcat
+*.logcat
